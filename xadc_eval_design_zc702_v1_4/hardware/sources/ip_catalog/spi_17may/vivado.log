@@ -1,0 +1,107 @@
+#-----------------------------------------------------------
+# Vivado v2013.1 (64-bit)
+# Build 248050 by xbuild on Wed Mar 27 17:11:51 MDT 2013
+# Start of session at: Fri May 17 15:49:52 2013
+# Process ID: 25719
+# Log file: /proj/xhd_vse_com/users/rishira/MiniProjects/Vivado/ZC702/IPP/packages/spi_17may/vivado.log
+# Journal file: /proj/xhd_vse_com/users/rishira/MiniProjects/Vivado/ZC702/IPP/packages/spi_17may/vivado.jou
+#-----------------------------------------------------------
+INFO: [Common 17-81] Feature available: Implementation
+INFO: [Common 17-81] Feature available: IPIntegrator_EA
+INFO: [Common 17-81] Feature available: Synthesis
+INFO: [Device 21-36] Loading parts and site information from /proj/xbuilds/2013.1_daily_latest/installs/lin64/Vivado/2013.1/data/parts/arch.xml
+Parsing RTL primitives file [/proj/xbuilds/2013.1_daily_latest/installs/lin64/Vivado/2013.1/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [/proj/xbuilds/2013.1_daily_latest/installs/lin64/Vivado/2013.1/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+INFO: [Common 17-362] Using Tcl App repository from '/proj/xbuilds/2013.1_daily_latest/installs/lin64/Vivado/2013.1/data/XilinxTclStore'.
+INFO: [Common 17-364] Updating Tcl app persistent manifest '/home/rishira/.Xilinx/Vivado/tclapp/manifest.tcl'
+INFO: [Common 17-201] Sourcing tcl script '/proj/xtools/dsv/projects/EDK/flows/init.tcl'
+source /proj/xtools/dsv/projects/EDK/flows/init.tcl
+# device_enable xc7z010clg225-1
+# device_enable xc7z010clg225-2
+# device_enable xc7z010clg225-3
+# device_enable xc7z010clg400-1
+# device_enable xc7z010clg400-2
+# device_enable xc7z010clg400-3
+# device_enable xc7z020clg400-1
+# device_enable xc7z020clg400-2
+# device_enable xc7z020clg400-3
+# device_enable xc7z020clg484-1
+# device_enable xc7z020clg484-2
+# device_enable xc7z020clg484-3
+# device_enable xc7z030ffg676-1
+# device_enable xc7z030ffg676-2
+# device_enable xc7z030ffg676-3
+# device_enable xc7z030fbg676-1
+# device_enable xc7z030fbg676-2
+# device_enable xc7z030fbg676-3
+# device_enable xc7z030fbg484-1
+# device_enable xc7z030fbg484-2
+# device_enable xc7z030fbg484-3
+# device_enable xc7z045fbg676-1
+# device_enable xc7z045fbg676-2
+# device_enable xc7z045fbg676-3
+# device_enable xc7z045ffg676-1
+# device_enable xc7z045ffg676-2
+# device_enable xc7z045ffg676-3
+# device_enable xc7z045ffg900-1
+# device_enable xc7z045ffg900-2
+# device_enable xc7z045ffg900-3
+# device_enable xa7z010clg225-1I
+# device_enable xa7z010clg225-1Q
+# device_enable xa7z010clg400-1I
+# device_enable xa7z010clg400-1Q
+# device_enable xa7z020clg400-1I
+# device_enable xa7z020clg400-1Q
+# device_enable xa7z020clg484-1I
+# device_enable xa7z020clg484-1Q
+# device_enable xq7z020cl400-1I
+# device_enable xq7z020cl400-1Q
+# device_enable xq7z020cl400-2I
+# device_enable xq7z020cl484-1I
+# device_enable xq7z020cl484-1Q
+# device_enable xq7z020cl484-2I
+# device_enable xq7z030rf676-1I
+# device_enable xq7z030rf676-1Q
+# device_enable xq7z030rf676-2I
+# device_enable xq7z030fb484-1I
+# device_enable xq7z030fb484-1Q
+# device_enable xq7z030fb484-2I
+# device_enable xq7z045rf676-1I
+# device_enable xq7z045rf676-1Q
+# device_enable xq7z045rf676-2I
+start_gui
+open_project /proj/xhd_vse_com/users/rishira/MiniProjects/Vivado/ZC702/IPP/packages/spi_17may/project_1.xpr
+CRITICAL WARNING: [Project 1-19] Could not find the file '/proj/xhd_vse_com/users/rishira/MiniProjects/Vivado/ZC702/IPP/packages/spi_17may/component.xml'.
+Scanning sources...
+Finished scanning sources
+update_compile_order -fileset sources_1
+file delete -force /proj/xhd_vse_com/users/rishira/MiniProjects/Vivado/ZC702/IPP/packages/spi_17may/project_1.srcs/sources_1/imports/vhdl/async_fifo_fg.vhd /proj/xhd_vse_com/users/rishira/MiniProjects/Vivado/ZC702/IPP/packages/spi_17may/project_1.srcs/sources_1/imports/vhdl/counter_f.vhd /proj/xhd_vse_com/users/rishira/MiniProjects/Vivado/ZC702/IPP/packages/spi_17may/project_1.srcs/sources_1/imports/vhdl/dynshreg_i_f.vhd /proj/xhd_vse_com/users/rishira/MiniProjects/Vivado/ZC702/IPP/packages/spi_17may/project_1.srcs/sources_1/imports/vhdl/srl16_fifo.vhd /proj/xhd_vse_com/users/rishira/MiniProjects/Vivado/ZC702/IPP/packages/spi_17may/project_1.srcs/sources_1/imports/vhdl/blk_mem_gen_wrapper.vhd /proj/xhd_vse_com/users/rishira/MiniProjects/Vivado/ZC702/IPP/packages/spi_17may/project_1.srcs/sources_1/imports/vhdl/eval_timer.vhd /proj/xhd_vse_com/users/rishira/MiniProjects/Vivado/ZC702/IPP/packages/spi_17may/project_1.srcs/sources_1/imports/vhdl/or_with_enable_f.vhd /proj/xhd_vse_com/users/rishira/MiniProjects/Vivado/ZC702/IPP/packages/spi_17may/project_1.srcs/sources_1/imports/vhdl/srl_fifo_rbu2_f.vhd /proj/xhd_vse_com/users/rishira/MiniProjects/Vivado/ZC702/IPP/packages/spi_17may/project_1.srcs/sources_1/imports/vhdl/sync_fifo_fg.vhd /proj/xhd_vse_com/users/rishira/MiniProjects/Vivado/ZC702/IPP/packages/spi_17may/project_1.srcs/sources_1/imports/vhdl/basic_sfifo_fg.vhd /proj/xhd_vse_com/users/rishira/MiniProjects/Vivado/ZC702/IPP/packages/spi_17may/project_1.srcs/sources_1/imports/vhdl/compare_vectors_f.vhd /proj/xhd_vse_com/users/rishira/MiniProjects/Vivado/ZC702/IPP/packages/spi_17may/project_1.srcs/sources_1/imports/vhdl/mux_onehot_f.vhd /proj/xhd_vse_com/users/rishira/MiniProjects/Vivado/ZC702/IPP/packages/spi_17may/project_1.srcs/sources_1/imports/vhdl/or_gate.vhd /proj/xhd_vse_com/users/rishira/MiniProjects/Vivado/ZC702/IPP/packages/spi_17may/project_1.srcs/sources_1/imports/vhdl/or_gate128.vhd /proj/xhd_vse_com/users/rishira/MiniProjects/Vivado/ZC702/IPP/packages/spi_17may/project_1.srcs/sources_1/imports/vhdl/or_gate_f.vhd /proj/xhd_vse_com/users/rishira/MiniProjects/Vivado/ZC702/IPP/packages/spi_17may/project_1.srcs/sources_1/imports/vhdl/srl_fifo_f.vhd /proj/xhd_vse_com/users/rishira/MiniProjects/Vivado/ZC702/IPP/packages/spi_17may/project_1.srcs/sources_1/imports/vhdl/xor_f.vhd /proj/xhd_vse_com/users/rishira/MiniProjects/Vivado/ZC702/IPP/packages/spi_17may/project_1.srcs/sources_1/imports/vhdl/ipif_steer.vhd /proj/xhd_vse_com/users/rishira/MiniProjects/Vivado/ZC702/IPP/packages/spi_17may/project_1.srcs/sources_1/imports/vhdl/addsub.vhd /proj/xhd_vse_com/users/rishira/MiniProjects/Vivado/ZC702/IPP/packages/spi_17may/project_1.srcs/sources_1/imports/vhdl/direct_path_cntr.vhd /proj/xhd_vse_com/users/rishira/MiniProjects/Vivado/ZC702/IPP/packages/spi_17may/project_1.srcs/sources_1/imports/vhdl/direct_path_cntr_ai.vhd /proj/xhd_vse_com/users/rishira/MiniProjects/Vivado/ZC702/IPP/packages/spi_17may/project_1.srcs/sources_1/imports/vhdl/down_counter.vhd /proj/xhd_vse_com/users/rishira/MiniProjects/Vivado/ZC702/IPP/packages/spi_17may/project_1.srcs/sources_1/imports/vhdl/ipif_mirror128.vhd /proj/xhd_vse_com/users/rishira/MiniProjects/Vivado/ZC702/IPP/packages/spi_17may/project_1.srcs/sources_1/imports/vhdl/ipif_steer128.vhd /proj/xhd_vse_com/users/rishira/MiniProjects/Vivado/ZC702/IPP/packages/spi_17may/project_1.srcs/sources_1/imports/vhdl/ld_arith_reg.vhd /proj/xhd_vse_com/users/rishira/MiniProjects/Vivado/ZC702/IPP/packages/spi_17may/project_1.srcs/sources_1/imports/vhdl/ld_arith_reg2.vhd /proj/xhd_vse_com/users/rishira/MiniProjects/Vivado/ZC702/IPP/packages/spi_17may/project_1.srcs/sources_1/imports/vhdl/mux_onehot.vhd /proj/xhd_vse_com/users/rishira/MiniProjects/Vivado/ZC702/IPP/packages/spi_17may/project_1.srcs/sources_1/imports/vhdl/or_bits.vhd /proj/xhd_vse_com/users/rishira/MiniProjects/Vivado/ZC702/IPP/packages/spi_17may/project_1.srcs/sources_1/imports/vhdl/pf_dpram_select.vhd /proj/xhd_vse_com/users/rishira/MiniProjects/Vivado/ZC702/IPP/packages/spi_17may/project_1.srcs/sources_1/imports/vhdl/pselect.vhd /proj/xhd_vse_com/users/rishira/MiniProjects/Vivado/ZC702/IPP/packages/spi_17may/project_1.srcs/sources_1/imports/vhdl/pselect_mask.vhd /proj/xhd_vse_com/users/rishira/MiniProjects/Vivado/ZC702/IPP/packages/spi_17may/project_1.srcs/sources_1/imports/vhdl/srl_fifo2.vhd /proj/xhd_vse_com/users/rishira/MiniProjects/Vivado/ZC702/IPP/packages/spi_17may/project_1.srcs/sources_1/imports/vhdl/srl_fifo3.vhd /proj/xhd_vse_com/users/rishira/MiniProjects/Vivado/ZC702/IPP/packages/spi_17may/project_1.srcs/sources_1/imports/vhdl/srl_fifo_rbu.vhd /proj/xhd_vse_com/users/rishira/MiniProjects/Vivado/ZC702/IPP/packages/spi_17may/project_1.srcs/sources_1/imports/vhdl/valid_be.vhd
+remove_files {/proj/xhd_vse_com/users/rishira/MiniProjects/Vivado/ZC702/IPP/packages/spi_17may/project_1.srcs/sources_1/imports/vhdl/async_fifo_fg.vhd /proj/xhd_vse_com/users/rishira/MiniProjects/Vivado/ZC702/IPP/packages/spi_17may/project_1.srcs/sources_1/imports/vhdl/counter_f.vhd /proj/xhd_vse_com/users/rishira/MiniProjects/Vivado/ZC702/IPP/packages/spi_17may/project_1.srcs/sources_1/imports/vhdl/dynshreg_i_f.vhd /proj/xhd_vse_com/users/rishira/MiniProjects/Vivado/ZC702/IPP/packages/spi_17may/project_1.srcs/sources_1/imports/vhdl/srl16_fifo.vhd /proj/xhd_vse_com/users/rishira/MiniProjects/Vivado/ZC702/IPP/packages/spi_17may/project_1.srcs/sources_1/imports/vhdl/blk_mem_gen_wrapper.vhd /proj/xhd_vse_com/users/rishira/MiniProjects/Vivado/ZC702/IPP/packages/spi_17may/project_1.srcs/sources_1/imports/vhdl/eval_timer.vhd /proj/xhd_vse_com/users/rishira/MiniProjects/Vivado/ZC702/IPP/packages/spi_17may/project_1.srcs/sources_1/imports/vhdl/or_with_enable_f.vhd /proj/xhd_vse_com/users/rishira/MiniProjects/Vivado/ZC702/IPP/packages/spi_17may/project_1.srcs/sources_1/imports/vhdl/srl_fifo_rbu2_f.vhd /proj/xhd_vse_com/users/rishira/MiniProjects/Vivado/ZC702/IPP/packages/spi_17may/project_1.srcs/sources_1/imports/vhdl/sync_fifo_fg.vhd /proj/xhd_vse_com/users/rishira/MiniProjects/Vivado/ZC702/IPP/packages/spi_17may/project_1.srcs/sources_1/imports/vhdl/basic_sfifo_fg.vhd /proj/xhd_vse_com/users/rishira/MiniProjects/Vivado/ZC702/IPP/packages/spi_17may/project_1.srcs/sources_1/imports/vhdl/compare_vectors_f.vhd /proj/xhd_vse_com/users/rishira/MiniProjects/Vivado/ZC702/IPP/packages/spi_17may/project_1.srcs/sources_1/imports/vhdl/mux_onehot_f.vhd /proj/xhd_vse_com/users/rishira/MiniProjects/Vivado/ZC702/IPP/packages/spi_17may/project_1.srcs/sources_1/imports/vhdl/or_gate.vhd /proj/xhd_vse_com/users/rishira/MiniProjects/Vivado/ZC702/IPP/packages/spi_17may/project_1.srcs/sources_1/imports/vhdl/or_gate128.vhd /proj/xhd_vse_com/users/rishira/MiniProjects/Vivado/ZC702/IPP/packages/spi_17may/project_1.srcs/sources_1/imports/vhdl/or_gate_f.vhd /proj/xhd_vse_com/users/rishira/MiniProjects/Vivado/ZC702/IPP/packages/spi_17may/project_1.srcs/sources_1/imports/vhdl/srl_fifo_f.vhd /proj/xhd_vse_com/users/rishira/MiniProjects/Vivado/ZC702/IPP/packages/spi_17may/project_1.srcs/sources_1/imports/vhdl/xor_f.vhd /proj/xhd_vse_com/users/rishira/MiniProjects/Vivado/ZC702/IPP/packages/spi_17may/project_1.srcs/sources_1/imports/vhdl/ipif_steer.vhd /proj/xhd_vse_com/users/rishira/MiniProjects/Vivado/ZC702/IPP/packages/spi_17may/project_1.srcs/sources_1/imports/vhdl/addsub.vhd /proj/xhd_vse_com/users/rishira/MiniProjects/Vivado/ZC702/IPP/packages/spi_17may/project_1.srcs/sources_1/imports/vhdl/direct_path_cntr.vhd /proj/xhd_vse_com/users/rishira/MiniProjects/Vivado/ZC702/IPP/packages/spi_17may/project_1.srcs/sources_1/imports/vhdl/direct_path_cntr_ai.vhd /proj/xhd_vse_com/users/rishira/MiniProjects/Vivado/ZC702/IPP/packages/spi_17may/project_1.srcs/sources_1/imports/vhdl/down_counter.vhd /proj/xhd_vse_com/users/rishira/MiniProjects/Vivado/ZC702/IPP/packages/spi_17may/project_1.srcs/sources_1/imports/vhdl/ipif_mirror128.vhd /proj/xhd_vse_com/users/rishira/MiniProjects/Vivado/ZC702/IPP/packages/spi_17may/project_1.srcs/sources_1/imports/vhdl/ipif_steer128.vhd /proj/xhd_vse_com/users/rishira/MiniProjects/Vivado/ZC702/IPP/packages/spi_17may/project_1.srcs/sources_1/imports/vhdl/ld_arith_reg.vhd /proj/xhd_vse_com/users/rishira/MiniProjects/Vivado/ZC702/IPP/packages/spi_17may/project_1.srcs/sources_1/imports/vhdl/ld_arith_reg2.vhd /proj/xhd_vse_com/users/rishira/MiniProjects/Vivado/ZC702/IPP/packages/spi_17may/project_1.srcs/sources_1/imports/vhdl/mux_onehot.vhd /proj/xhd_vse_com/users/rishira/MiniProjects/Vivado/ZC702/IPP/packages/spi_17may/project_1.srcs/sources_1/imports/vhdl/or_bits.vhd /proj/xhd_vse_com/users/rishira/MiniProjects/Vivado/ZC702/IPP/packages/spi_17may/project_1.srcs/sources_1/imports/vhdl/pf_dpram_select.vhd /proj/xhd_vse_com/users/rishira/MiniProjects/Vivado/ZC702/IPP/packages/spi_17may/project_1.srcs/sources_1/imports/vhdl/pselect.vhd /proj/xhd_vse_com/users/rishira/MiniProjects/Vivado/ZC702/IPP/packages/spi_17may/project_1.srcs/sources_1/imports/vhdl/pselect_mask.vhd /proj/xhd_vse_com/users/rishira/MiniProjects/Vivado/ZC702/IPP/packages/spi_17may/project_1.srcs/sources_1/imports/vhdl/srl_fifo2.vhd /proj/xhd_vse_com/users/rishira/MiniProjects/Vivado/ZC702/IPP/packages/spi_17may/project_1.srcs/sources_1/imports/vhdl/srl_fifo3.vhd /proj/xhd_vse_com/users/rishira/MiniProjects/Vivado/ZC702/IPP/packages/spi_17may/project_1.srcs/sources_1/imports/vhdl/srl_fifo_rbu.vhd /proj/xhd_vse_com/users/rishira/MiniProjects/Vivado/ZC702/IPP/packages/spi_17may/project_1.srcs/sources_1/imports/vhdl/valid_be.vhd}
+file delete -force /proj/xhd_vse_com/users/rishira/MiniProjects/Vivado/ZC702/IPP/packages/spi_17may/project_1.srcs/sources_1/imports/vhdl/dynshreg2_f.vhd /proj/xhd_vse_com/users/rishira/MiniProjects/Vivado/ZC702/IPP/packages/spi_17may/project_1.srcs/sources_1/imports/vhdl/srl_fifo_rbu_f.vhd /proj/xhd_vse_com/users/rishira/MiniProjects/Vivado/ZC702/IPP/packages/spi_17may/project_1.srcs/sources_1/imports/vhdl/counter.vhd /proj/xhd_vse_com/users/rishira/MiniProjects/Vivado/ZC702/IPP/packages/spi_17may/project_1.srcs/sources_1/imports/vhdl/or_muxcy_f.vhd /proj/xhd_vse_com/users/rishira/MiniProjects/Vivado/ZC702/IPP/packages/spi_17may/project_1.srcs/sources_1/imports/vhdl/pf_adder.vhd /proj/xhd_vse_com/users/rishira/MiniProjects/Vivado/ZC702/IPP/packages/spi_17may/project_1.srcs/sources_1/imports/vhdl/pf_counter_top.vhd /proj/xhd_vse_com/users/rishira/MiniProjects/Vivado/ZC702/IPP/packages/spi_17may/project_1.srcs/sources_1/imports/vhdl/pf_occ_counter_top.vhd /proj/xhd_vse_com/users/rishira/MiniProjects/Vivado/ZC702/IPP/packages/spi_17may/project_1.srcs/sources_1/imports/vhdl/or_muxcy.vhd
+remove_files {/proj/xhd_vse_com/users/rishira/MiniProjects/Vivado/ZC702/IPP/packages/spi_17may/project_1.srcs/sources_1/imports/vhdl/dynshreg2_f.vhd /proj/xhd_vse_com/users/rishira/MiniProjects/Vivado/ZC702/IPP/packages/spi_17may/project_1.srcs/sources_1/imports/vhdl/srl_fifo_rbu_f.vhd /proj/xhd_vse_com/users/rishira/MiniProjects/Vivado/ZC702/IPP/packages/spi_17may/project_1.srcs/sources_1/imports/vhdl/counter.vhd /proj/xhd_vse_com/users/rishira/MiniProjects/Vivado/ZC702/IPP/packages/spi_17may/project_1.srcs/sources_1/imports/vhdl/or_muxcy_f.vhd /proj/xhd_vse_com/users/rishira/MiniProjects/Vivado/ZC702/IPP/packages/spi_17may/project_1.srcs/sources_1/imports/vhdl/pf_adder.vhd /proj/xhd_vse_com/users/rishira/MiniProjects/Vivado/ZC702/IPP/packages/spi_17may/project_1.srcs/sources_1/imports/vhdl/pf_counter_top.vhd /proj/xhd_vse_com/users/rishira/MiniProjects/Vivado/ZC702/IPP/packages/spi_17may/project_1.srcs/sources_1/imports/vhdl/pf_occ_counter_top.vhd /proj/xhd_vse_com/users/rishira/MiniProjects/Vivado/ZC702/IPP/packages/spi_17may/project_1.srcs/sources_1/imports/vhdl/or_muxcy.vhd}
+file delete -force /proj/xhd_vse_com/users/rishira/MiniProjects/Vivado/ZC702/IPP/packages/spi_17may/project_1.srcs/sources_1/imports/vhdl/cntr_incr_decr_addn_f.vhd /proj/xhd_vse_com/users/rishira/MiniProjects/Vivado/ZC702/IPP/packages/spi_17may/project_1.srcs/sources_1/imports/vhdl/dynshreg_f.vhd /proj/xhd_vse_com/users/rishira/MiniProjects/Vivado/ZC702/IPP/packages/spi_17may/project_1.srcs/sources_1/imports/vhdl/pf_occ_counter.vhd /proj/xhd_vse_com/users/rishira/MiniProjects/Vivado/ZC702/IPP/packages/spi_17may/project_1.srcs/sources_1/imports/vhdl/pf_adder_bit.vhd /proj/xhd_vse_com/users/rishira/MiniProjects/Vivado/ZC702/IPP/packages/spi_17may/project_1.srcs/sources_1/imports/vhdl/pf_counter.vhd /proj/xhd_vse_com/users/rishira/MiniProjects/Vivado/ZC702/IPP/packages/spi_17may/project_1.srcs/sources_1/imports/vhdl/counter_bit.vhd
+remove_files {/proj/xhd_vse_com/users/rishira/MiniProjects/Vivado/ZC702/IPP/packages/spi_17may/project_1.srcs/sources_1/imports/vhdl/cntr_incr_decr_addn_f.vhd /proj/xhd_vse_com/users/rishira/MiniProjects/Vivado/ZC702/IPP/packages/spi_17may/project_1.srcs/sources_1/imports/vhdl/dynshreg_f.vhd /proj/xhd_vse_com/users/rishira/MiniProjects/Vivado/ZC702/IPP/packages/spi_17may/project_1.srcs/sources_1/imports/vhdl/pf_occ_counter.vhd /proj/xhd_vse_com/users/rishira/MiniProjects/Vivado/ZC702/IPP/packages/spi_17may/project_1.srcs/sources_1/imports/vhdl/pf_adder_bit.vhd /proj/xhd_vse_com/users/rishira/MiniProjects/Vivado/ZC702/IPP/packages/spi_17may/project_1.srcs/sources_1/imports/vhdl/pf_counter.vhd /proj/xhd_vse_com/users/rishira/MiniProjects/Vivado/ZC702/IPP/packages/spi_17may/project_1.srcs/sources_1/imports/vhdl/counter_bit.vhd}
+file delete -force /proj/xhd_vse_com/users/rishira/MiniProjects/Vivado/ZC702/IPP/packages/spi_17may/project_1.srcs/sources_1/imports/vhdl/muxf_struct_f.vhd /proj/xhd_vse_com/users/rishira/MiniProjects/Vivado/ZC702/IPP/packages/spi_17may/project_1.srcs/sources_1/imports/vhdl/pf_counter_bit.vhd
+remove_files {/proj/xhd_vse_com/users/rishira/MiniProjects/Vivado/ZC702/IPP/packages/spi_17may/project_1.srcs/sources_1/imports/vhdl/muxf_struct_f.vhd /proj/xhd_vse_com/users/rishira/MiniProjects/Vivado/ZC702/IPP/packages/spi_17may/project_1.srcs/sources_1/imports/vhdl/pf_counter_bit.vhd}
+file delete -force /proj/xhd_vse_com/users/rishira/MiniProjects/Vivado/ZC702/IPP/packages/spi_17may/project_1.srcs/sources_1/imports/vhdl/inferred_lut4.vhd
+remove_files /proj/xhd_vse_com/users/rishira/MiniProjects/Vivado/ZC702/IPP/packages/spi_17may/project_1.srcs/sources_1/imports/vhdl/inferred_lut4.vhd
+remove_files /proj/xhd_vse_com/users/rishira/MiniProjects/Vivado/ZC702/IPP/packages/spi_17may/component.xml
+ipx::package_project -root_dir {/proj/xhd_vse_com/users/rishira/MiniProjects/Vivado/ZC702/IPP/packages/spi_17may}
+INFO: [IP_Flow 19-2418] Expression "((C_S_AXI_DATA_WIDTH / 8) - 1)": Will not convert operator '/' to XPATH 'div' to allow integer division if applicable.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado repository '/proj/xbuilds/2013.1_daily_latest/installs/lin64/Vivado/2013.1/data/ip'.
+INFO: [IP_Flow 19-2228] Inferred bus interface "S_AXI" of definition type "xilinx.com:interface:aximm:1.0".
+INFO: [IP_Flow 19-2228] Inferred bus interface "S_AXI_signal_reset" of definition type "xilinx.com:signal:reset:1.0".
+INFO: [IP_Flow 19-2228] Inferred bus interface "S_AXI_signal_clock" of definition type "xilinx.com:signal:clock:1.0".
+set_property library {user} [ipx::current_core]
+ipx::check_integrity [ipx::current_core]
+INFO: [IP_Flow 19-414] HDL Parameter 'C_FAMILY': Parameter name is reserved.
+INFO: [IP_Flow 19-2181] Payment Required is not set for this core.
+INFO: [IP_Flow 19-2188] The Readme file is missing.
+INFO: [IP_Flow 19-2186] The Data Sheet file is missing.
+INFO: [IP_Flow 19-2189] The User Guide file is missing.
+INFO: [IP_Flow 19-2187] The Product Guide file is missing.
+ipx::archive_core {/proj/xhd_vse_com/users/rishira/MiniProjects/Vivado/ZC702/IPP/packages/spi_17may/xilinx.com_user_axi_spi_1.0.zip} [ipx::current_core]
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri May 17 16:05:46 2013...

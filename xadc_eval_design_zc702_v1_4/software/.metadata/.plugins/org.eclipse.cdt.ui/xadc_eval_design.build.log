@@ -1,0 +1,33 @@
+23:12:27 **** Build of configuration Release for project xadc_eval_design ****
+make all 
+Building file: ../src/pmbus_iic.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O3 -c -fmessage-length=0 -I../../xadc_eval_design_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/pmbus_iic.d" -MT"src/pmbus_iic.d" -o "src/pmbus_iic.o" "../src/pmbus_iic.c"
+Finished building: ../src/pmbus_iic.c
+ 
+Building file: ../src/xadc_eval_design.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O3 -c -fmessage-length=0 -I../../xadc_eval_design_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/xadc_eval_design.d" -MT"src/xadc_eval_design.d" -o "src/xadc_eval_design.o" "../src/xadc_eval_design.c"
+Finished building: ../src/xadc_eval_design.c
+ 
+Building file: ../src/xadc_interface.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O3 -c -fmessage-length=0 -I../../xadc_eval_design_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/xadc_interface.d" -MT"src/xadc_interface.d" -o "src/xadc_interface.o" "../src/xadc_interface.c"
+../src/xadc_interface.c: In function 'uartControl':
+../src/xadc_interface.c:2474:9: warning: variable 'Status' set but not used [-Wunused-but-set-variable]
+Finished building: ../src/xadc_interface.c
+ 
+Building target: xadc_eval_design.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../xadc_eval_design_bsp/ps7_cortexa9_0/lib -o "xadc_eval_design.elf"  ./src/pmbus_iic.o ./src/xadc_eval_design.o ./src/xadc_interface.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: xadc_eval_design.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size xadc_eval_design.elf  |tee "xadc_eval_design.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  93560	   1232	  30112	 124904	  1e7e8	xadc_eval_design.elf
+Finished building: xadc_eval_design.elf.size
+ 
+
+23:12:31 Build Finished (took 3s.294ms)
+
